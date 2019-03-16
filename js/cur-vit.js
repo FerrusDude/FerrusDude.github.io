@@ -12,6 +12,10 @@ if (Vue) {
         props: ['item'],
         template: '<dl><dt>{{item.company}}</dt><dd>{{item.entry}}</dd></dl>',
     });
+    Vue.component('entry-simple-hyperlink',{
+        props: ['item'],
+        template: '<li><a :href="item.url"><span>{{item.message}}</span></a></li>',
+    });
     var resumeOverview = new Vue({
         el: '#resume-overview',
         data: function() {
@@ -99,6 +103,13 @@ if (Vue) {
                                 type: 'entry-compound',
                                 heading: 'Codingame.com',
                                 entry: [
+                                    {
+                                        type: 'entry-simple-hyperlink',
+                                        entry: {
+                                            message: 'My Profile',
+                                            url: 'https://www.codingame.com/profile/280e093fc48d227173715ab32a0a6dde0241731',
+                                        }
+                                    },
                                     {
                                         type: 'entry-simple',
                                         entry: 'Mentor Ranked',
