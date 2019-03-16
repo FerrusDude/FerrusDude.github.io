@@ -1,0 +1,137 @@
+/* Top */
+
+[v-cloak] {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+
+h2 {
+    font-size: calc(1em * 112%);
+}
+
+h3 {
+    font-size: calc(1em * 125%);
+}
+
+div.content {
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.resume-heading {
+    margin: 0 0 2rem 0;
+    padding: 0.25rem 0.5rem 0.75rem 0.75rem;
+    background-color: #0b1717;
+    background-image: linear-gradient(transparent, transparent 72%, #eeeeee30 90%, #00000030 94%, #00000060),
+        repeating-linear-gradient(-45deg, black, black 2px,  #1b2727 2px,  #1b2727 4px);
+    box-shadow: 0 2px 4px #0b171780;
+    color: white;
+}
+
+div.resume-heading h1 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    font-size: 0.9rem;
+}
+
+div.resume-block {
+    margin: 0 1.5rem 0.5rem 1.5rem;
+    padding: 0;
+    width: 25rem;
+    border-right: 2px solid #0b1717;
+    background-color: transparent;
+    background-image: linear-gradient(to right, white, white 45%, transparent),
+        linear-gradient(to top, black, black 2px, #ffffff 2px, #ffffff);
+}
+
+.resume-block + .resume-block {
+    margin-top: 1.5rem;
+}
+
+.sttng-banner {
+    padding: 0 0 0.175rem 0.5rem;
+    border-radius: 10px 0 0 10px;
+    color: white;
+    background-color: #0b1717;
+    background-image: linear-gradient(transparent, transparent 72%, #eeeeee30 90%, #00000030 94%, #00000060),
+        repeating-linear-gradient(-45deg, black, black 2px,  #1b2727 2px,  #1b2727 4px);
+    box-shadow: 0 2px 4px #0b171780;
+}
+
+div.card {
+    margin: 0.25rem 0 0.25rem auto;
+    padding: 0 0 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: space-around;
+    transition: 800ms;
+    /* border: 1px solid #afafaf; */
+    cursor: pointer;
+}
+
+.card:hover .sttng-banner, .card:focus .sttng-banner {
+    background-color: #0f4753;
+    background-image: linear-gradient(transparent, transparent 72%, #eeeeee30 90%, #00000030 94%, #00000060),
+        repeating-linear-gradient(-45deg, #092930, #092930 2px,  #0f4753 2px,  #0f4753 4px);
+    box-shadow: 0 1px 2px #0b171780;
+    transform: translateY(1px);
+}
+
+.card:hover .sttng-banner *, .card:focus .sttng-banner * {
+    filter: drop-shadow(0 0 2px #ffffff88);
+}
+
+div.card ul, div.card dl {
+    margin: 0;
+}
+
+.resume-block h2 {
+    margin: 0 auto 5px auto;
+}
+
+.all-caps {
+    font-variant: small-caps;
+}
+
+.anton {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 37.5rem) {
+    div.resume-heading {
+        padding-left: 1.25rem;
+    }
+    div.resume-block {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 56.25rem) {
+    .resume-block + .resume-block {
+        margin-top: 0rem;
+    }
+}
