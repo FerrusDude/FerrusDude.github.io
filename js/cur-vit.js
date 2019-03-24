@@ -466,7 +466,7 @@ if (Vue) {
                                 entry: [
                                     {
                                         type: 'entry-compound',
-                                        heading: 'Extrememly Strong',
+                                        heading: 'Detailed',
                                         entry: [
                                             {
                                                 type: 'entry-simple',
