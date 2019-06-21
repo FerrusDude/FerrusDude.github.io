@@ -10,11 +10,14 @@ Applying Advanced Skills to Common Problems
 - 10+ years creative design digital / print
 
 ### Skillsets
-- Advanced ECMAScipt
-- Familiarity with Various Patterns / Libs
-    - BackboneJS + JQuery
+- Rust Lang
+    - A*, Djisktra, Graph Data Structures
+    - Utilities
+    - Heuristic, MCMC AI Bots
+- Advanced ECMAScipt + Common Libs
     - VueJS 2
     - Angular 1
+    - BackboneJS + JQuery
 
 ### Languages
 - Javascript
@@ -34,7 +37,7 @@ Applying Advanced Skills to Common Problems
 
 ### Work History
 #### FOSSIL Group
-3 years : 10 months - UI Developer II &bull; ECOM CMS (Adobe AEM, Shopify, Salesforce)
+3 years : 6 months - UI Developer II &bull; ECOM CMS (Adobe AEM, Shopify, Salesforce)
 
 #### Web / Email Development Contracts
 4 months - __AAFES__  
@@ -62,8 +65,12 @@ BFA, Graphic Design
     - ~4 yrs
     - 3+ role enhancements
     - Timeline
-        1. March 2018 - Now
-            - JAVA Middleware
+        1. April 2018 - Now
+            - Salesforce Vendor Oversight & Code Review
+            - Salesforce Integration
+            - Lead - Shopify site portfolio
+        1. March 2018 - April 2018
+            - JAVA Middleware - AEM
             - Javascript Frontend
             - Adobe Experience Manager Component work
         1. April 2017 - March 2018
