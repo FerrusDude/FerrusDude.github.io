@@ -142,7 +142,7 @@ if (Vue) {
                             {
                                 type: 'entry-simple',
                                 company: 'Fossil Group',
-                                entry: '3 years : 10 months - UI Developer II • ECOM CMS (Adobe AEM, Shopify, Salesforce)',
+                                entry: '3 years : 6 months - UI Developer II • ECOM CMS (Adobe AEM, Shopify, Salesforce)',
                             },
                         ],
                     },
@@ -222,15 +222,33 @@ if (Vue) {
                                         entry: [
                                             {
                                                 type: 'entry-compound',
-                                                heading: 'March 2018 - Now',
+                                                heading: 'April 2018 - Now',
                                                 entry: [
                                                     {
                                                         type: 'entry-simple',
-                                                        entry: 'JAVA Middleware',
+                                                        entry: 'Salesforce Vendor Oversight & Code Review',
                                                     },
                                                     {
                                                         type: 'entry-simple',
-                                                        entry: 'Javascript Frontend',
+                                                        entry: 'Salesforce Integration',
+                                                    },
+                                                    {
+                                                        type: 'entry-simple',
+                                                        entry: 'Lead - Shopify site portfolio',
+                                                    },
+                                                ],
+                                            },
+                                            {
+                                                type: 'entry-compound',
+                                                heading: 'March 2018 - April 2018',
+                                                entry: [
+                                                    {
+                                                        type: 'entry-simple',
+                                                        entry: 'JAVA Middleware - AEM',
+                                                    },
+                                                    {
+                                                        type: 'entry-simple',
+                                                        entry: 'Javascript Frontend - AEM',
                                                     },
                                                     {
                                                         type: 'entry-simple',
