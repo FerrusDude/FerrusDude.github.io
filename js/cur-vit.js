@@ -48,17 +48,27 @@ if (Vue) {
                         title: 'Skillsets',
                         list: [
                             {
-                                type: 'entry-simple',
-                                entry: 'Advanced ECMAScipt',
-                            },
-                            {
                                 type: 'entry-compound',
-                                heading: 'Familiarity with Various Patterns / Libs',
+                                heading: 'Rust Lang',
                                 entry: [
                                     {
                                         type: 'entry-simple',
-                                        entry: 'BackboneJS + JQuery',
+                                        entry: 'A*, Djisktra, Graph Data Structures',
                                     },
+                                    {
+                                        type: 'entry-simple',
+                                        entry: 'Utilities',
+                                    },
+                                    {
+                                        type: 'entry-simple',
+                                        entry: 'Heuristic, MCMC AI Bots',
+                                    },
+                                ],
+                            },
+                            {
+                                type: 'entry-compound',
+                                heading: 'Advanced ECMAScipt + Common Libs',
+                                entry: [
                                     {
                                         type: 'entry-simple',
                                         entry: 'VueJS 2',
@@ -66,6 +76,10 @@ if (Vue) {
                                     {
                                         type: 'entry-simple',
                                         entry: 'Angular 1',
+                                    },
+                                    {
+                                        type: 'entry-simple',
+                                        entry: 'BackboneJS + JQuery',
                                     },
                                 ],
                             },
