@@ -53,7 +53,7 @@ if (Vue) {
                                 entry: [
                                     {
                                         type: 'entry-simple',
-                                        entry: 'A*, Djisktra, Graph Data Structures',
+                                        entry: 'A*, Dijkstra, Graph Data Structures',
                                     },
                                     {
                                         type: 'entry-simple',

@@ -11,7 +11,7 @@ Applying Advanced Skills to Common Problems
 
 ### Skillsets
 - Rust Lang
-    - A*, Djisktra, Graph Data Structures
+    - A*, Dijkstra, Graph Data Structures
     - Utilities
     - Heuristic, MCMC AI Bots
 - Advanced ECMAScipt + Common Libs
