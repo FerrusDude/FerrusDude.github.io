@@ -60,6 +60,8 @@ div.resume-block {
     padding: 0;
     width: 25rem;
     border-right: 2px solid #0b1717;
+    transition: 400ms;
+    transition-delay: 400ms;
     background-color: transparent;
     background-image: linear-gradient(to right, white, white 45%, transparent),
         linear-gradient(to top, black, black 2px, #ffffff 2px, #ffffff);
@@ -82,7 +84,7 @@ div.card {
     flex-direction: column;
     justify-content: left;
     align-content: space-around;
-    transition: 800ms;
+    transition: 400ms;
     /* border: 1px solid #afafaf; */
     cursor: pointer;
 }
@@ -137,11 +139,13 @@ div.card ul, div.card dl {
     }
 
     div.resume-block {
-        border: none;
+        border-color: rgba(0,0,0,0);
+        transition-delay: 0;
     }
 
     div.card {
         padding: 0 1rem;
+        transition-delay: 400;
     }
 
     .sttng-banner {
@@ -149,7 +153,7 @@ div.card ul, div.card dl {
         padding: 0 0.5rem;
     }
     .resume-block + .resume-block {
-        border: none;
+        border-color: rgba(0,0,0,0);
     }
     .resume-block + .resume-block .sttng-banner {
         border-radius: 5px;
