@@ -9,7 +9,7 @@ function loadData() {
 }
 
 function loadVue(res) {
-    if (res.status === 200 && Vue) {
+    if (res.currentTarget.status === 200 && Vue) {
         // Vue is loaded
         Vue.component('entry-simple',{
             props: ['item'],
@@ -27,7 +27,7 @@ function loadVue(res) {
             props: ['item'],
             template: '<li><a :href="item.url"><span>{{item.message}}</span></a></li>',
         });
-        const siteData = JSON.parse(res.responseText),
+        const siteData = JSON.parse(res.currentTarget.response),
         resumeOverview = new Vue({
             el: '#resume-overview',
             data: function() {
