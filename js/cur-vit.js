@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", loadData, 'once');
 
 function loadData() {
     const xhr = new XMLHttpRequest();
-    xhr.addEventListener("load", loadVue);
+    xhr.addEventListener("load", loadVue, 'once');
     xhr.open("GET", "./data/site-data.json");
     xhr.responseType = "json";
     xhr.send();
