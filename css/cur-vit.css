@@ -135,8 +135,12 @@ div.card ul, div.card dl {
     font-weight: 400;
 }
 
-button.print-btn {
+a.print-btn {
     margin: auto 5px;
+    cursor: pointer;
+}
+
+a.print-btn button {
     border: none;
     background: none;
     color: white;
