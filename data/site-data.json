@@ -51,6 +51,10 @@
                         "entry": [
                             {
                                 "type": "entry-simple",
+                                "entry": "Svelte"
+                            },
+                            {
+                                "type": "entry-simple",
                                 "entry": "VueJS 2"
                             },
                             {
@@ -101,12 +105,12 @@
                                 "type": "entry-simple-hyperlink",
                                 "entry": {
                                     "message": "My Profile",
-                                    "url": "\"https\"://www.codingame.com/profile/280e093fc48d227173715ab32a0a6dde0241731"
+                                    "url": "https://www.codingame.com/profile/280e093fc48d227173715ab32a0a6dde0241731"
                                 }
                             },
                             {
                                 "type": "entry-simple",
-                                "entry": "Mentor Ranked"
+                                "entry": "Master Ranked"
                             },
                             {
                                 "type": "entry-simple",
@@ -534,13 +538,13 @@
                             },
                             {
                                 "type": "entry-simple",
-                                "entry": "Managed expectations in the face of the \"Wants every tool to be able to do everything\" perspective"
+                                "entry": "Managed expectations in the face of the Wants every tool to be able to do everything perspective"
                             }
                         ]
                     },
                     {
                         "type": "entry-compound",
-                        "heading": "\"Managed Dev priorities through\":",
+                        "heading": "Managed Dev priorities through:",
                         "entry": [
                             {
                                 "type": "entry-simple",
