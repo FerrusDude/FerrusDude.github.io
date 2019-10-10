@@ -31,10 +31,10 @@ Applying Advanced Skills to Common Problems
 
 #### Personal Development
 - Codingame.com
-    - Mentor Ranked
-        - Rust Lang
-        - Javascript
-    - Bot Challenges
+    - Master Ranked
+        - `Rust`
+        - `Javascript`
+    - Competitive AI Bot Competitions
     - Algorithm Puzzles
 
 ### Work History
