@@ -65,10 +65,6 @@ div.resume-block {
         linear-gradient(to top, black, black 2px, #ffffff 2px, #ffffff);
 }
 
-.resume-block + .resume-block {
-    margin-top: 1.5rem;
-}
-
 .sttng-banner {
     padding: 0 0 0.175rem 0.5rem;
     border-radius: 5px 0 0 5px;
@@ -89,6 +85,20 @@ div.card {
     transition: 800ms;
     /* border: 1px solid #afafaf; */
     cursor: pointer;
+}
+
+.resume-block + .resume-block {
+    margin-top: 1.5rem;
+    border-right: none;
+    border-left: 2px solid #0b1717;
+}
+
+.resume-block + .resume-block .sttng-banner {
+    border-radius: 0 5px 5px 0;
+}
+
+.resume-block + .resume-block .card {
+    padding: 0 1rem 1rem 0;
 }
 
 .card:hover .sttng-banner, .card:focus .sttng-banner {
