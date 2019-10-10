@@ -136,8 +136,12 @@ div.card ul, div.card dl {
         display: block;
     }
 
-    .resume-block {
+    div.resume-block {
         border: none;
+    }
+
+    div.card {
+        padding: 0 1rem;
     }
 
     .sttng-banner {
@@ -145,10 +149,14 @@ div.card ul, div.card dl {
         padding: 0 0.5rem;
     }
     .resume-block + .resume-block {
-        margin-top: 0rem;
+        border: none;
     }
-    .resume-block + .resume-block sttng-banner {
+    .resume-block + .resume-block .sttng-banner {
+        border-radius: 5px;
         padding: 0 0.5rem;
+    }
+    .resume-block + .resume-block .card {
+        padding: 0 1rem;
     }
 }
 
