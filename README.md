@@ -1,5 +1,6 @@
 # Ronald LaBelle
-> Developer II
+***Developer II***
+
 ---
 
 ### Focus
@@ -15,16 +16,17 @@ Applying Advanced Skills to Common Problems
     - Utilities
     - Heuristic, MCMC AI Bots
 - Advanced ECMAScipt + Common Libs
-    - VueJS 2
-    - Angular 1
-    - BackboneJS + JQuery
+    - `BackboneJS` + `JQuery`
+    - `Angular 1`
+    - `VueJS 2`
+    - `Svelte`
 
 ### Languages
-- Javascript
-- Rust
-- JAVA
-- C#
-- Python
+- `Javascript`
+- `Rust`
+- `JAVA`
+- `C#`
+- `Python`
 
 
 #### Personal Development
@@ -37,7 +39,7 @@ Applying Advanced Skills to Common Problems
 
 ### Work History
 #### FOSSIL Group
-3 years : 6 months - UI Developer II &bull; ECOM CMS (Adobe AEM, Shopify, Salesforce)
+4 years - UI Developer II &bull; ECOM CMS (Adobe AEM, Shopify, Salesforce)
 
 #### Web / Email Development Contracts
 4 months - __AAFES__  
@@ -62,7 +64,7 @@ BFA, Graphic Design
 
 ## Work History
 - Fossil • UI Dev 2
-    - ~4 yrs
+    - 4 yrs
     - 3+ role enhancements
     - Timeline
         1. April 2018 - Now

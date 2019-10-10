@@ -156,7 +156,7 @@ if (Vue) {
                             {
                                 type: 'entry-simple',
                                 company: 'Fossil Group',
-                                entry: '3 years : 6 months - UI Developer II • ECOM CMS (Adobe AEM, Shopify, Salesforce)',
+                                entry: '4 years - UI Developer II • ECOM CMS (Adobe AEM, Shopify, Salesforce)',
                             },
                         ],
                     },
@@ -224,7 +224,7 @@ if (Vue) {
                                 entry: [
                                     {
                                         type: 'entry-simple',
-                                        entry: '~4 yrs',
+                                        entry: '4 yrs',
                                     },
                                     {
                                         type: 'entry-simple',
