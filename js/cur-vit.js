@@ -27,17 +27,16 @@ function loadVue(res) {
             props: ['item'],
             template: '<li><a :href="item.url"><span>{{item.message}}</span></a></li>',
         });
-        const siteData = JSON.parse(res.currentTarget.response),
-        resumeOverview = new Vue({
+        const resumeOverview = new Vue({
             el: '#resume-overview',
             data: function() {
-                return siteData.resumeOverview;
+                return res.currentTarget.response.resumeOverview;
             }
         }),
         curiculumVitae = new Vue({
             el: '#resume-curiculum-vitae',
             data: function() {
-                return siteData.curiculumVitae;
+                return res.currentTarget.response.curiculumVitae;
             },
         });
     } else {
