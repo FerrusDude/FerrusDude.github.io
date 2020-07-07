@@ -2,25 +2,24 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE-Edge">
-        <title>Ronald La Belle: Curiculum Vitae</title>
+        <title>Ronald La Belle</title>
         <meta name="viewport" width="device-width" height="device-height" initial-scale="1.0" minimum-scale="1.0" user-scalable="yes">
         <meta name="robots" content="index, follow">
         <link href="./css/cur-vit.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans|Oswald|Material+Icons" rel="stylesheet"> 
         <meta property="og:type" content="website">
         <!-- <meta property="og:image" content="./social-image.jpg"> -->
         <meta property="og:site_name" content="Ronald La Belle: Curiculum Vitae">
     </head>
     <body>
         <div id="resume-heading" class="resume-heading">
-            <h1 class="all-caps anton">Ronald La Belle</h1>
+            <h1 class="display-font">Ronald La Belle</h1>
             <a class="print-btn" href="./data/Ronald-LaBelle-Resume-2019.PDF">
                 <button class="material-icons" style="float:right;">print</button>
             </a>
         </div>
         <div class="content">
             <div id="resume-overview" class="resume-block" v-cloak>
-                <h2 class="sttng-banner">{{ message }}</h2>
+                <!-- <h2 class="sttng-banner">{{ message }}</h2> -->
                 <div v-for="(card, index) in cards" :id="'overview-id-' + index" class="card" tabindex="0">
                     <!-- :id="resume-overview-card-(index)" -->
                     <h3 class="sttng-banner"><span>{{card.title}}</span></h3>
@@ -31,7 +30,9 @@
                 <div v-for="(job, index) in shortWH" :id="'shortWH-id-' + index" class="card" tabindex="0">
                     <!-- :id="resume-overview-card-(index)" -->
                     <h3 class="sttng-banner"><span>{{job.title}}</span></h3>
-                    <entry-work v-for="(item, index) in job.list" :key="index" :item="item"></entry-work>
+                    <div>
+                        <entry-work v-for="(item, index) in job.list" :key="index" :item="item"></entry-work>
+                    </div>
                 </div>
                 <div class="card" tabindex="0">
                     <h3 class="sttng-banner">Education</h3>

@@ -1,5 +1,10 @@
 /* Top */
 
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans|Oswald|Material+Icons');
+
+
 [v-cloak] {
     display: none;
 }
@@ -31,17 +36,14 @@ div.content {
     display: flex;
     flex-direction: row;
     align-items: last baseline;
-    justify-content: center;
+    justify-content: first;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
 }
 
 div.resume-heading {
     margin: 0 0 2rem 0;
-    padding: 0.25rem 0.5rem 0.75rem 0.75rem;
     background-color: #0b1717;
-    background-image: linear-gradient(transparent, transparent 72%, #eeeeee30 90%, #00000030 94%, #00000060),
-        repeating-linear-gradient(-45deg, black, black 2px,  #1b2727 2px,  #1b2727 4px);
     box-shadow: 0 2px 4px #0b171780;
     color: white;
     display: flex;
@@ -49,7 +51,7 @@ div.resume-heading {
 }
 
 div.resume-heading h1 {
-    margin: 0;
+    margin: 1rem;
     padding: 0;
 }
 
@@ -60,18 +62,15 @@ ul {
 div.resume-block {
     margin: 0 1.5rem 0.5rem 1.5rem;
     padding: 0;
-    width: 25rem;
-    border-right: 2px solid #0b1717;
+    /* width: 25rem; */
     transition: 400ms;
     transition-delay: 400ms;
     background-color: transparent;
-    background-image: linear-gradient(to right, white, white 45%, transparent),
-        linear-gradient(to top, black, black 2px, #ffffff 2px, #ffffff);
 }
 
 .sttng-banner {
-    padding: 0 0 0.175rem 0.5rem;
-    border-radius: 5px 0 0 5px;
+    padding: 0.175rem 0.5rem;
+    border-radius: 5px;
     color: white;
     background-color: #0b1717;
     background-image: linear-gradient(transparent, transparent 72%, #eeeeee30 90%, #00000030 94%, #00000060),
@@ -80,21 +79,31 @@ div.resume-block {
 }
 
 div.card {
-    margin: 0.25rem 0 0.25rem auto;
-    padding: 0 0 1rem 1rem;
+    margin: 0 0 0.25rem auto;
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-content: space-around;
+    align-items: first baseline;
     transition: 400ms;
     /* border: 1px solid #afafaf; */
     cursor: pointer;
 }
 
+div.card ul,
+div.card div {
+    height: 0;
+    overflow: hidden;
+}
+
+div.card:focus-within ul,
+div.card:focus-within div {
+    height: auto;
+}
+
 .resume-block + .resume-block {
     margin-top: 1.5rem;
     border-right: none;
-    border-left: 2px solid #0b1717;
 }
 
 .resume-block + .resume-block .sttng-banner {
@@ -102,11 +111,10 @@ div.card {
 }
 
 .resume-block + .resume-block .card {
-    padding: 0 1rem 1rem 0;
 }
 
 .card:hover .sttng-banner, .card:focus .sttng-banner {
-    background-color: #0f4753;
+    background-color: #532e0f;
     background-image: linear-gradient(transparent, transparent 72%, #eeeeee30 90%, #00000030 94%, #00000060),
         repeating-linear-gradient(-45deg, #092930, #092930 2px,  #0f4753 2px,  #0f4753 4px);
     box-shadow: 0 1px 2px #0b171780;
@@ -135,6 +143,12 @@ div.card ul, div.card dl {
     font-weight: 400;
 }
 
+.display-font {
+    font-family: 'Bangers', sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+}
+
 a.print-btn {
     margin: auto 5px;
 }
@@ -147,41 +161,9 @@ a.print-btn button {
 }
 
 @media screen and (max-width: 56.25rem) {
-    .content {
-        display: block;
-    }
 
-    div.resume-block {
-        border-color: rgba(0,0,0,0);
-        transition-delay: 0;
-    }
-
-    div.card {
-        padding: 0 1rem;
-        transition-delay: 400;
-    }
-
-    .sttng-banner {
-        border-radius: 5px;
-        padding: 0 0.5rem;
-    }
-    .resume-block + .resume-block {
-        border-color: rgba(0,0,0,0);
-    }
-    .resume-block + .resume-block .sttng-banner {
-        border-radius: 5px;
-        padding: 0 0.5rem;
-    }
-    .resume-block + .resume-block .card {
-        padding: 0 1rem;
-    }
 }
 
 @media screen and (max-width: 37.5rem) {
-    div.resume-heading {
-        padding-left: 1.25rem;
-    }
-    div.resume-block {
-        margin-right: 0;
-    }
+
 }
