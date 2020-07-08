@@ -18,6 +18,11 @@
 
 * {
     box-sizing: border-box;
+    transition: font-size 0
+}
+
+html {
+    font-size: 16px;
 }
 
 body {
@@ -33,11 +38,11 @@ h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    font-size: calc(1em * 112%);
+    font-size: calc(1rem * 112%);
 }
 
 h3 {
-    font-size: calc(1em * 125%);
+    font-size: calc(1rem * 125%);
 }
 
 div.content {
@@ -80,7 +85,6 @@ div.resume-block {
     padding: 0;
     /* width: 25rem; */
     transition: 400ms;
-    transition-delay: 400ms;
     background-color: transparent;
 }
 
@@ -102,7 +106,7 @@ div.card {
     justify-content: left;
     align-content: space-around;
     align-items: first baseline;
-    transition: 400ms;
+    transition: ease-out 400ms
     /* border: 1px solid #afafaf; */
     cursor: pointer;
 }
@@ -180,7 +184,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: 400ms right;
+    transition: right 400ms
 }
 
 .resume-heading * {
@@ -226,16 +230,53 @@ a.nav-btn {
 }
 
 @media screen and (max-width: 991.98px) {
+    html {
+        font-size: 30px;
+    }
+
+    body {
+        transition: padding 0;
+        padding-top: 120px;
+    }
+
+    div.resume-heading h1 {
+        margin: 1rem 0.75rem;
+        padding: 0;
+        font-size: 0.75rem;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+    }
+
+    h3 {
+        font-size: 0.6rem;
+    }
+
+    ul,
+    dl {
+        font-size: 0.5rem;
+    }
+
+    .resume-heading nav * {
+        font-size: 0.6rem !important;
+    }
+
     .nav-btn.mobile {
         display: block;
     }
 
     nav {
-        bottom: -100px;
-        right: -200px;
+        bottom: -105px;
+        right: -350px;
         position: absolute;
         background-color: rgba(245, 245, 245, 0.9);
         border-radius: 5px;
+    }
+
+    .sttng-banner {
+        padding: 0.25rem 0.65rem 0.4rem 0.5rem;
+        min-width: calc(100% / 2);
     }
 
     .resume-heading nav ul {

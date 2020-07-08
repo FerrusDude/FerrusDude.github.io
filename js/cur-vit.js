@@ -54,3 +54,5 @@ function loadVue(res) {
         console.warn("Vue failed to load.\n",res.responseText);
     }
 }
+
+document.querySelector('.content')[0].innerText = document.documentElement.clientWidth + ' : ' + document.documentElement.clientHeight;
