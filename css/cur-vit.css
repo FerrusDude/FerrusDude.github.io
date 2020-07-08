@@ -2,11 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans|Oswald|Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Material+Icons');
 
 
-[v-cloak] {
-    display: none;
+[v-cloak],
+.hide {
+    display: none !important;
+}
+
+.show-menu {
+    right: 0 !important;
 }
 
 * {
@@ -15,11 +22,12 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 80px 0 0 0;
+    background-color: whitesmoke;
 }
 
 h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Gruppo', sans-serif;
     font-weight: 600;
     letter-spacing: 0.05rem;
 }
@@ -39,19 +47,27 @@ div.content {
     justify-content: first;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
 }
 
 div.resume-heading {
+    width: 100%;
     margin: 0 0 2rem 0;
-    background-color: #0b1717;
+    background-color: white;
     box-shadow: 0 2px 4px #0b171780;
-    color: white;
+    /* color: white; */
+    /* background-color: #0b1717; */
+    background-image: linear-gradient(transparent, transparent 72%, white 90%, Gainsboro 94%, Gainsboro), repeating-linear-gradient(-45deg, white, white 2px, whitesmoke 2px, whitesmoke 4px);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9001;
 }
 
 div.resume-heading h1 {
-    margin: 1rem;
+    margin: 0.75rem 1rem 1.25rem 1rem;
     padding: 0;
 }
 
@@ -69,13 +85,14 @@ div.resume-block {
 }
 
 .sttng-banner {
-    padding: 0.175rem 0.5rem;
+    padding: 0.25rem 0.85rem 0.4rem 0.7rem;
     border-radius: 5px;
     color: white;
     background-color: #0b1717;
     background-image: linear-gradient(transparent, transparent 72%, #eeeeee30 90%, #00000030 94%, #00000060),
         repeating-linear-gradient(-45deg, black, black 2px,  #1b2727 2px,  #1b2727 4px);
     box-shadow: 0 2px 2px #0b171780;
+    min-width: calc(100% / 3);
 }
 
 div.card {
@@ -90,16 +107,13 @@ div.card {
     cursor: pointer;
 }
 
-div.card ul,
+/* div.card ul,
 div.card div {
-    height: 0;
-    overflow: hidden;
 }
 
 div.card:focus-within ul,
 div.card:focus-within div {
-    height: auto;
-}
+} */
 
 .resume-block + .resume-block {
     margin-top: 1.5rem;
@@ -107,10 +121,21 @@ div.card:focus-within div {
 }
 
 .resume-block + .resume-block .sttng-banner {
-    border-radius: 0 5px 5px 0;
+    background-color: royalblue;
 }
 
-.resume-block + .resume-block .card {
+/* .resume-block + .resume-block .card {
+    background-color: rebeccapurple;
+} */
+
+h3 span::before {
+    content: '\2503';
+    font-weight: bolder;
+    margin: 0 0.5rem 0 0;
+}
+
+.card:hover h3 span::before {
+    color: #99FF00;
 }
 
 .card:hover .sttng-banner, .card:focus .sttng-banner {
@@ -121,8 +146,9 @@ div.card:focus-within div {
     transform: translateY(1px);
 }
 
-.card:hover .sttng-banner *, .card:focus .sttng-banner * {
-    filter: drop-shadow(0 0 2px #ffffff88);
+.card:hover .sttng-banner *:before, .card:focus .sttng-banner *:before {
+    transform: translateY(-1px);
+    filter: drop-shadow(0 0 2px #99FF00);
 }
 
 div.card ul, div.card dl {
@@ -137,31 +163,86 @@ div.card ul, div.card dl {
     font-variant: small-caps;
 }
 
-.anton {
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 0.1rem;
-    font-weight: 400;
-}
-
 .display-font {
-    font-family: 'Bangers', sans-serif;
+    font-family: 'Gruppo', sans-serif;
     letter-spacing: 0.1rem;
-    font-weight: 500;
+    font-weight: 600;
+    flex-grow: 1;
 }
 
-a.print-btn {
-    margin: auto 5px;
-}
-
-a.print-btn button {
+button {
     border: none;
     background: none;
-    color: white;
     cursor: pointer;
 }
 
-@media screen and (max-width: 56.25rem) {
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 400ms;
+}
 
+.resume-heading * {
+    text-decoration: none;
+    list-style: none;
+}
+
+.resume-heading nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.resume-heading div {
+    display: flex;
+    justify-content: center;
+}
+
+.resume-heading nav button {
+    /* color: white; */
+    font-family: 'Gruppo', sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+nav .selected {
+    filter: brightness(0.8);
+}
+
+.selected:before {
+    content: '<';
+}
+
+.selected:after {
+    content: '>';
+}
+
+a.nav-btn {
+    margin: auto 5px;
+}
+
+.nav-btn.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 56.25rem) {
+    .nav-btn.mobile {
+        display: block;
+    }
+
+    nav {
+        bottom: -100px;
+        right: -200px;
+        position: absolute;
+        background-color: rgba(245, 245, 245, 0.9);
+        border-radius: 5px;
+    }
+
+    .resume-heading nav ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 37.5rem) {

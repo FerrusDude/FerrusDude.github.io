@@ -1,0 +1,738 @@
+{
+    "resumeOverview": {
+        "message": "Overview",
+        "cards": [
+            {
+                "title": "Focus",
+                "list": [
+                    {
+                        "type": "entry-simple",
+                        "entry": "Applying Advanced Skills to Common Problems"
+                    }
+                ]
+            },
+            {
+                "title": "Curriculum Vitae",
+                "list": [
+                    {
+                        "type": "entry-simple",
+                        "entry": "~5 years in web application development"
+                    },
+                    {
+                        "type": "entry-simple",
+                        "entry": "10+ years creative design digital / print"
+                    }
+                ]
+            },
+            {
+                "title": "Skillsets",
+                "list": [
+                    {
+                        "type": "entry-compound",
+                        "heading": "Rust Lang",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "A*, Dijkstra, Graph Data Structures"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Utilities"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Heuristic, MCMC AI Bots"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-compound",
+                        "heading": "Advanced ECMAScipt + Common Libs",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "Svelte"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "VueJS 2"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Angular 1"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "BackboneJS + JQuery"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Languages",
+                "list": [
+                    {
+                        "type": "entry-simple",
+                        "entry": "Javascript"
+                    },
+                    {
+                        "type": "entry-simple",
+                        "entry": "Rust"
+                    },
+                    {
+                        "type": "entry-simple",
+                        "entry": "JAVA"
+                    },
+                    {
+                        "type": "entry-simple",
+                        "entry": "C#"
+                    },
+                    {
+                        "type": "entry-simple",
+                        "entry": "Python"
+                    }
+                ]
+            },
+            {
+                "title": "Personal Development",
+                "list": [
+                    {
+                        "type": "entry-compound",
+                        "heading": "Codingame.com",
+                        "entry": [
+                            {
+                                "type": "entry-simple-hyperlink",
+                                "entry": {
+                                    "message": "My Profile",
+                                    "url": "https://www.codingame.com/profile/280e093fc48d227173715ab32a0a6dde0241731"
+                                }
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Master Ranked"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Rust Lang"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Javascript"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-simple",
+                        "entry": "Bot Challenges"
+                    },
+                    {
+                        "type": "entry-simple",
+                        "entry": "Algorithm Puzzles"
+                    }
+                ]
+            }
+        ],
+        "shortWH": [
+            {
+                "title": "Front End / Middleware / CMS-ECOM Dev",
+                "list": [
+                    {
+                        "type": "entry-simple",
+                        "company": "Fossil Group",
+                        "entry": "5 years - UI Developer II • ECOM CMS (Adobe AEM, Shopify, Salesforce)"
+                    }
+                ]
+            },
+            {
+                "title": "Web / Email Development Contracts",
+                "list": [
+                    {
+                        "type": "entry-simple",
+                        "company": "AAFES",
+                        "entry": "4 months"
+                    },
+                    {
+                        "type": "entry-simple",
+                        "company": "Neiman Marcus",
+                        "entry": "4 months"
+                    }
+                ]
+            },
+            {
+                "title": "Creative Positions",
+                "list": [
+                    {
+                        "type": "entry-work",
+                        "company": "Wasteland Daydreams",
+                        "entry": "7 years - Author / Self-Publisher"
+                    },
+                    {
+                        "type": "entry-work",
+                        "company": "Iron Sight Entertainment (startup)",
+                        "entry": "11 months - Concept Artist (environment / creature)"
+                    },
+                    {
+                        "type": "entry-work",
+                        "company": "Progressive Laboratories",
+                        "entry": "7 years - Creative Director (web / print)"
+                    },
+                    {
+                        "type": "entry-work",
+                        "company": "Tandy Brands Accessories",
+                        "entry": "2 years - Graphic Designer (web / product photography)"
+                    },
+                    {
+                        "type": "entry-work",
+                        "company": "Amarillo Globe News",
+                        "entry": "3 months - Graphic Artist (print)"
+                    }
+                ]
+            }
+        ]
+    },
+    "curiculumVitae": {
+        "message": "Curriculum Vitae",
+        "cards": [
+            {
+                "title": "Work History",
+                "list": [
+                    {
+                        "type": "entry-compound",
+                        "heading": "Fossil • UI Dev 2",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "5 yrs"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "3+ role enhancements"
+                            },
+                            {
+                                "type": "entry-compound",
+                                "heading": "Timeline",
+                                "entry": [
+                                    
+                                    {
+                                        "type": "entry-compound",
+                                        "heading": "June 2020 - Present",
+                                        "entry": [
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Lead Developer, Michele.com site relaunch on Salesforce"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Lead Developer, Watchstation.com Canada site launch on Salesforce"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Lead Developer PoC for Analytics Team"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Lead - Shopify site portfolio - Maintenance Only"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "entry-compound",
+                                        "heading": "January 2020 - June 2020",
+                                        "entry": [
+                                            {
+                                                "type": "entry-compound",
+                                                "heading": "Lead Developer, Watchstation.com site relaunch on Salesforce",
+                                                "entry" : [
+                                                    {
+                                                        "type": "entry-simple",
+                                                        "entry": "Inherited floundering project with subpar documentation"
+                                                    },
+                                                    {
+                                                        "type": "entry-simple",
+                                                        "entry": "Performed Discovery and Produced Documentation"
+                                                    },
+                                                    {
+                                                        "type": "entry-simple",
+                                                        "entry": "Launched during COVID Crisis"
+                                                    },
+                                                    {
+                                                        "type": "entry-simple",
+                                                        "entry": "Perfect launch with zero priority issues"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Fossil.com Enhancements on Salesforce"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Lead Developer PoC for Analytics Team"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Lead - Shopify site portfolio - Maintenance Only"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "entry-compound",
+                                        "heading": "October 2019 - January 2020",
+                                        "entry": [
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Fossil.com API Enhancements on Salesforce"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Lead Developer PoC for Analytics Team"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Lead - Shopify site portfolio - Maintenance Only"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "entry-compound",
+                                        "heading": "April 2018 - October 2019",
+                                        "entry": [
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Salesforce Vendor Oversight & Code Review"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Salesforce Integration"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Lead - Shopify site portfolio"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "entry-compound",
+                                        "heading": "March 2018 - April 2018",
+                                        "entry": [
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "JAVA Middleware - Adobe Experience Manager"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Javascript Frontend - Adobe Experience Manager"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Adobe Experience Manager Component work"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "entry-compound",
+                                        "heading": "April 2017 - March 2018",
+                                        "entry": [
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Adobe Experience Manager Component work"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Flexible page components to enhance site experience (Media Tile, Video Tile)"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "entry-compound",
+                                        "heading": "December 2015 - April 2017",
+                                        "entry": [
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Adobe Experience Manager Component Configuration"
+                                            },
+                                            {
+                                                "type": "entry-simple",
+                                                "entry": "Minor View Layer Tasks and Front-end Component `overclocking`"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-compound",
+                        "heading": "Various • Contract Dev",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "~1 yr"
+                            },
+                            {
+                                "type": "entry-compound",
+                                "heading": "Email Templates, Website Snippets",
+                                "entry": [
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Neiman Marcus"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "AAFES"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-compound",
+                        "heading": "Nutrition & Fashion Industry • Content Creator",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "10+ years"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Graphic Design, Art Direction, Print + Web"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "ECOM, Direct Markets, Fashion B2B, Nutrition B2C"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Leadership Moments",
+                "list": [
+                    {
+                        "type": "entry-compound",
+                        "heading": "Salesforce New Sites",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "Inherited a troubled site standup macro project"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Managed shifting project scope through COVID Crisis"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Restructured project work to maximize efficiency gains"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Documented custom features through back-engineering and 'code archeaology'"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-compound",
+                        "heading": "Salesforce standup",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "Proactively immersed myself into the new codebase"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Managed through the integration of all front-end devs onto a single active team"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-compound",
+                        "heading": "Solo in-house contributor to FOSSIL.com Frontend",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "Front-end component creation"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Internal User Focused Optimizations"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Code Quality Gatekeeper - GIT Repository"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Guided vendors to an on-time schedule"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-compound",
+                        "heading": "Embraced team/role shift to full FOSSIL.com owner",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "Cross Dept Collabs"
+                            },
+                            {
+                                "type": "entry-compound",
+                                "heading": "Code Review Responsibilities",
+                                "entry": [
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Code Quality"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Code Execution Time"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Legacy Maintenance and Replacement"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Middle-ware Developent"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-simple",
+                        "entry": "Currently assisting Fossil.com to a successfull replatform / relaunch"
+                    }
+                ]
+            },
+            {
+                "title": "Journey of Learning",
+                "list": [
+                    {
+                        "type": "entry-compound",
+                        "heading": "UI Dev - FOSSIL",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "Started as pure HTML/JS dev"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Collaborated directly with Creative / Non-Technicals"
+                            },{
+                                "type": "entry-simple",
+                                "entry": "Ended as accomplished CMS component dev"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-compound",
+                        "heading": "Frontend & CMS Dev - FOSSIL.com (AEM)",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "Started as front-end"
+                            },
+                            {
+                                "type": "entry-compound",
+                                "heading": "Embraced transition to Middle-ware",
+                                "entry": [
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Managing Code Integrations"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Managing Sprint Cycles"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Managing team development"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "entry-compound",
+                                "heading": "Strengthened JAVA Skills",
+                                "entry": [
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Test-supported Development"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Servlets & Exploit Mitigation"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Consistently Bug-less Deployments"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Ended as accomplished Middle-ware Dev"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-compound",
+                        "heading": "Frontend & CMS Dev - FOSSIL.com , WATCHSTATION.com (Salesforce)",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "Learned Salesforce Platform"
+                            },
+                            {
+                                "type": "entry-compound",
+                                "heading": "Embraced leadership role for mission critical site launches",
+                                "entry": [
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Managing Code Cycles"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Engaging with Business Stakeholders"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Mentoring Junior Developers"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "entry-compound",
+                                "heading": "API, Vendor Integrations, Core Refactors",
+                                "entry": [
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Developed Customer Facing API"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Integrated with Service Vendors API"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Refactored MVP code solutions to support Evergreen, Multi-Brand Business Goals"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Lead Dev for Business Critical Projects"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Knowledge Pursuit",
+                "list": [
+                    {
+                        "type": "entry-simple",
+                        "entry": "Leveraging bot programming to learn important algorithm skills"
+                    },
+                    {
+                        "type": "entry-simple",
+                        "entry": "Pivoting algo skills to improve general coding approaches"
+                    },
+                    {
+                        "type": "entry-simple",
+                        "entry": "Using core knowledge to remove unnecessary Library weight and excess complexity"
+                    },
+                    {
+                        "type": "entry-compound",
+                        "heading": "Languages",
+                        "entry": [
+                            {
+                                "type": "entry-compound",
+                                "heading": "Detailed",
+                                "entry": [
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "ES2016"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Rust Lang"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "entry-compound",
+                                "heading": "Competent",
+                                "entry": [
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "ES2017"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "JAVA"
+                                    },
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "C#"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "entry-compound",
+                                "heading": "Cursory",
+                                "entry": [
+                                    {
+                                        "type": "entry-simple",
+                                        "entry": "Python"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-simple",
+                        "entry": "Developed core understanding of languages to demystify libraries and break reliance on them"
+                    }
+                ]
+            },
+            {
+                "title": "High Volatility Scenarios",
+                "list": [
+                    {
+                        "type": "entry-compound",
+                        "heading": "Bridging Creative Non-Technicals into the Development Conversation",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "Launched revenue driving features despite shifting targets"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-compound",
+                        "heading": "Scoping Priorities through:",
+                        "entry": [
+                            {
+                                "type": "entry-simple",
+                                "entry": "Highly oscillating regions of responsibility"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Vague overall objectives"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "Conflicting areas of responsibility"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "COVID Disruptions"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

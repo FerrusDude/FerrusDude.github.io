@@ -1,11 +1,22 @@
+
+let nav = document.querySelector('nav');
+let mobileMenuBtn = document.querySelector('#mobile-menu');
+
 document.addEventListener("DOMContentLoaded", loadData, 'once');
+mobileMenuBtn.addEventListener("click", showMobileMenu);
+mobileMenuBtn.addEventListener("touch", showMobileMenu);
+mobileMenuBtn.addEventListener("keyDown", showMobileMenu);
 
 function loadData() {
     const xhr = new XMLHttpRequest();
     xhr.addEventListener("load", loadVue, 'once');
-    xhr.open("GET", "./data/site-data.json");
+    xhr.open("GET", "./data/site-data-detailed.json");
     xhr.responseType = "json";
     xhr.send();
+}
+
+function showMobileMenu () {
+    nav.classList.toggle('show-menu');
 }
 
 function loadVue(res) {
