@@ -10,7 +10,7 @@ mobileMenuBtn.addEventListener("keyDown", showMobileMenu);
 function loadData() {
     const xhr = new XMLHttpRequest();
     xhr.addEventListener("load", loadVue, 'once');
-    xhr.open("GET", "./data/site-data-detailed.json");
+    xhr.open("GET", "./data/site-data.json");
     xhr.responseType = "json";
     xhr.send();
 }
