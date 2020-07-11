@@ -55,4 +55,4 @@ function loadVue(res) {
     }
 }
 
-document.querySelector('.content')[0].innerText = document.documentElement.clientWidth + ' : ' + document.documentElement.clientHeight;
+// document.querySelector('.content')[0].innerText = document.documentElement.clientWidth + ' : ' + document.documentElement.clientHeight;

@@ -106,7 +106,7 @@ div.card {
     justify-content: left;
     align-content: space-around;
     align-items: first baseline;
-    transition: ease-out 400ms
+    transition: ease-out 400ms;
     /* border: 1px solid #afafaf; */
     cursor: pointer;
 }
@@ -142,7 +142,7 @@ h3 span::before {
     color: #99FF00;
 }
 
-.card:hover .sttng-banner, .card:focus .sttng-banner {
+.card:active .sttng-banner {
     background-color: #532e0f;
     background-image: linear-gradient(transparent, transparent 72%, #eeeeee30 90%, #00000030 94%, #00000060),
         repeating-linear-gradient(-45deg, #092930, #092930 2px,  #0f4753 2px,  #0f4753 4px);

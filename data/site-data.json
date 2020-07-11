@@ -20,7 +20,7 @@
                 "list": [
                     {
                         "type": "entry-compound",
-                        "heading": "Rust Lang",
+                        "heading": "Algorithms / Bots",
                         "entry": [
                             {
                                 "type": "entry-simple",
@@ -38,11 +38,89 @@
                     },
                     {
                         "type": "entry-compound",
-                        "heading": "Advanced ECMAScipt + Common Libs",
+                        "heading": "Scripting Languages",
+                        "entry": [
+                            {
+                                "type": "entry-compound",
+                                "heading": "JAVASCRIPT (ES5, ES6)",
+                                "entry": [
+                                    {
+                                        "type":"entry-simple",
+                                        "entry": "Client Side (Vanilla & Library)"
+                                    },
+                                    {
+                                        "type":"entry-simple",
+                                        "entry": "NodeJS + ExpressJS"
+                                    },
+                                    {
+                                        "type":"entry-simple",
+                                        "entry": "Rhino - Salesforce"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "entry-compound",
+                                "heading": "C#",
+                                "entry": [
+                                    {
+                                        "type":"entry-simple",
+                                        "entry": "UNITY Engine"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "entry-compound",
+                                "heading": "JAVA",
+                                "entry": [
+                                    {
+                                        "type":"entry-simple",
+                                        "entry": "Server Side - Adobe Experience Manager"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-compound",
+                        "heading": "System Languages",
+                        "entry": [
+                            {
+                                "type": "entry-compound",
+                                "heading": "RUST Lang",
+                                "entry": [
+                                    {
+                                        "type":"entry-simple",
+                                        "entry": "Bots"
+                                    },
+                                    {
+                                        "type":"entry-simple",
+                                        "entry": "Utilities"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "entry-compound",
+                                "heading": "C++",
+                                "entry": [
+                                    {
+                                        "type":"entry-simple",
+                                        "entry": "Simple Algorithms"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "entry-compound",
+                        "heading": "Patterns / Protocols",
                         "entry": [
                             {
                                 "type": "entry-simple",
-                                "entry": "Template-Based CMS"
+                                "entry": "RESTFUL API"
+                            },
+                            {
+                                "type": "entry-simple",
+                                "entry": "MVC & Restful CMS Platforms"
                             },
                             {
                                 "type": "entry-simple",
@@ -53,31 +131,6 @@
                                 "entry": "Legacy ( `BackboneJS`, `JQuery`, `Angular 1` )"
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "title": "Languages",
-                "list": [
-                    {
-                        "type": "entry-simple",
-                        "entry": "Javascript"
-                    },
-                    {
-                        "type": "entry-simple",
-                        "entry": "Rust"
-                    },
-                    {
-                        "type": "entry-simple",
-                        "entry": "JAVA"
-                    },
-                    {
-                        "type": "entry-simple",
-                        "entry": "C#"
-                    },
-                    {
-                        "type": "entry-simple",
-                        "entry": "Python"
                     }
                 ]
             },
