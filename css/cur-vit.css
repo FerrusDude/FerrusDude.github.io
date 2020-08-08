@@ -229,6 +229,14 @@ a.nav-btn {
     display: none;
 }
 
+.fancy-menu {
+    border: 6px solid;
+    border-image: linear-gradient(#000,#fff 20px, #000 20px) 6;
+    border-image: url('./img/tile.png') 6 / 10px round;
+    padding: 0.25rem 1rem 1.5rem 1rem;
+    box-shadow: 0 0 10px 5px darkgray inset,0 0 1px 1px white,5px 5px 5px black;
+}
+
 @media screen and (max-width: 991.98px) {
     html {
         font-size: 30px;
